@@ -14,7 +14,7 @@ import Terrain from './models/Terrain';
 const models = [Sword, Shield, Bow, Fireplace, Bull, Terrain];
 
 function App() {
-  const [activeIndex, setActiveIndex] = useState(2);
+  const [activeIndex, setActiveIndex] = useState(0);
   return (
     <>
       <Flex h='100vh'>
